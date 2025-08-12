@@ -13,6 +13,8 @@ import image5 from "../../assets/image5.png";
 import image6 from "../../assets/image6.png";
 import image7 from "../../assets/image7.png";
 import image8 from "../../assets/image8.png";
+import Vector from "../../assets/Vector.svg";
+import Bitmap from "../../assets/Bitmap.png";
 
 const Fifthpage =()=> {
 return(
@@ -38,13 +40,13 @@ return(
             <p className="text-[#E9E9E9]">DropBox</p>
         </div>
         <div className="flex gap-3 items-center tag">
-            <img className="border-2 border-white rounded-full p-1 bg-white" width={30} src={Spotify} alt=""/>
-            <p className="text-[#E9E9E9]">Spotify</p>
+            <img className="border-2 border-white rounded-full p-1 bg-white" width={30} src={Vector} alt=""/>
+            <p className="text-[#E9E9E9]">Fliqpay</p>
         </div>
         </div>
         <div className="flex gap-3 items-center tag ml-5.5">
-            <img className="border-2 border-white rounded-full p-1 bg-white" width={30} src={Spotify} alt=""/>
-            <p className="text-[#E9E9E9]">Spotify</p>
+            <img className="border-2 border-white rounded-full p-1 bg-white" width={30} src={Bitmap} alt=""/>
+            <p className="text-[#E9E9E9]">Slack</p>
         </div>
         </div>
     </div>
