@@ -6,62 +6,74 @@ import { FiArrowUpRight } from "react-icons/fi";
 
 const Eightpage = () => {
     return (
-        <section className="page-eight">
-            <h1 className="lg:text-[60px] md:text-[50px] text-[35px] text-center A md:w-[70%] mx-auto my-0px mb-5">
-                Let’s talk about your next project. <span className="B">We’re here to help.</span>
-            </h1>
-            <p className="deliver">Deliver personalized experiences to your customers <br /> with AI-powered recommendation engines and <br /> dynamic content generation.</p>
-            <div className="flex justify-evenly mt-15 flex-wrap gap-5">
-                <img className="w-[500px] h-[500px]" src={Rectangle} alt="" />
-                <div className="space-y-4">
-                    {/* First Name */}
-                    <input
-                        type="text"
-                        placeholder="First Name"
-                        className="w-full bg-gray-100 rounded-lg p-3 outline-none"
-                    />
-                    {/* Last Name */}
-                    <input
-                        type="text"
-                        placeholder="Last Name"
-                        className="w-full bg-gray-100 rounded-lg p-3 outline-none"
-                    />
-                    {/* Email */}
-                    <input
-                        type="email"
-                        placeholder="Email"
-                        className="w-full bg-gray-100 rounded-lg p-3 outline-none"
-                    />
-                    {/* Phone with country code */}
-                    <div className="flex gap-2">
-                        <select className="bg-gray-100 rounded-lg p-3 outline-none">
-                            <option>+1</option>
-                            <option>+44</option>
-                            <option>+880</option>
-                            <option>+91</option>
-                        </select>
+        <section >
+
+            <section className="page-eight">
+                <h1 className="lg:text-[60px] md:text-[50px] text-[35px] text-center A md:w-[70%] mx-auto my-0px mb-5">
+                    Let’s talk about your next project. <span className="B">We’re here to help.</span>
+                </h1>
+                <p className="deliver">Deliver personalized experiences to your customers <br /> with AI-powered recommendation engines and <br /> dynamic content generation.</p>
+                <div className="flex justify-evenly mt-15 flex-wrap gap-5">
+                    <img className="w-[500px] h-[500px]" src={Rectangle} alt="" />
+                    <div className="space-y-4">
+                        {/* First Name */}
                         <input
-                            type="tel"
-                            placeholder="Phone"
-                            className="flex-1 bg-gray-100 rounded-lg p-3 outline-none"
+                            type="text"
+                            placeholder="First Name"
+                            className="w-full bg-gray-100 dark:bg-gray-800 dark:text-white rounded-lg p-3 outline-none"
                         />
+                        {/* Last Name */}
+                        <input
+                            type="text"
+                            placeholder="Last Name"
+                            className="w-full bg-gray-100 dark:bg-gray-800 dark:text-white rounded-lg p-3 outline-none"
+                        />
+                        {/* Email */}
+                        <input
+                            type="email"
+                            placeholder="Email"
+                            className="w-full bg-gray-100 dark:bg-gray-800 dark:text-white rounded-lg p-3 outline-none"
+                        />
+                        {/* Phone with country code */}
+                        <div className="flex gap-2">
+                            <select className="bg-gray-100 dark:bg-gray-800 dark:text-white rounded-lg p-3 outline-none">
+                                <option>+1</option>
+                                <option>+44</option>
+                                <option>+880</option>
+                                <option>+91</option>
+                            </select>
+                            <input
+                                type="tel"
+                                placeholder="Phone"
+                                className="flex-1 bg-gray-100 dark:bg-gray-800 dark:text-white rounded-lg p-3 outline-none"
+                            />
+                        </div>
+                        {/* Job Title */}
+                        <input
+                            type="text"
+                            placeholder="Job Title"
+                            className="w-full bg-gray-100 dark:bg-gray-800 dark:text-white rounded-lg p-3 outline-none"
+                        />
+                        {/* Message */}
+                        <textarea
+                            placeholder="Your message"
+                            className="w-full bg-gray-100 dark:bg-gray-800 dark:text-white rounded-lg p-3 outline-none h-28"
+                        ></textarea>
+
+                        {/* Button */}
+                        <div className="lets">
+                            <button className="btn bg-[#2CCEBA] rounded-4xl py-5.5 flex items-center">
+                                <span className="text-white">Let's Discuss</span>
+                                <FiArrowUpRight
+                                    className="ml-3 w-[20px] h-[20px] rounded-full bg-white"
+                                    color="black"
+                                />
+                            </button>
+                        </div>
                     </div>
-                    {/* Job Title */}
-                    <input
-                        type="text"
-                        placeholder="Job Title"
-                        className="w-full bg-gray-100 rounded-lg p-3 outline-none"
-                    />
-                    {/* Message */}
-                    <textarea
-                        placeholder="Your message"
-                        className="w-full bg-gray-100 rounded-lg p-3 outline-none h-28"
-                    ></textarea>
-                    <div className="lets">
-                        <button className=" btn bg-[#2CCEBA] rounded-4xl py-5.5"><span className="text-white">Let's Discuss</span> <FiArrowUpRight className="ml-3 w-[20px] h-[20px] rounded-full bg-white" color="black" /></button>
-                    </div>
+
                 </div>
-            </div>
+            </section>
 
             <section className="page-none bg-gradient-to-br from-[#0f2b27] to-[#0b0d0f] text-white py-16 px-8 mt-20">
                 <h1 className="text-5xl font-extrabold mb-15 bricolage-grotesque lg:ml-5">
