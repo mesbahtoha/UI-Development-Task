@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+.outfit{
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+    font-weight: 400;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+    font-weight: 400;
+  font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
+.bricolage-grotesque {
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-optical-sizing: auto;
+}
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+.rubik {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.fifthpage{
+  background: linear-gradient(180deg, #000 0%, #053e36 100%);
+    backdrop-filter: blur(56.296295166015625px);
+   padding-top: 50px;
+   padding-bottom: 80px;
+}
+.Our{
+  color: var(--Foundation-Grey-Black-G50, #E9E9E9);
+font-feature-settings: 'liga' off, 'clig' off;
+
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -2.8px;
+}
+.worlds{
+  color: var(--Foundation-Grey-Black-G75, #A5A5A5);
+}
+.tag{
+  border-radius: 104px;
+background: linear-gradient(180deg, #2CCEBA 0%, rgba(44, 206, 186, 0.05) 100%);
+width: 130px;
+padding: 15px 0px 15px 12px;
+}
+.Poster{
+  border-radius: 45.037px;
+border: 2.252px solid rgba(34, 193, 173, 0.60);
+background: var(--Accent-Light-Linear-1, linear-gradient(180deg, rgba(211, 135, 255, 0.00) 0%, rgba(211, 135, 255, 0.05) 100%));
+backdrop-filter: blur(56.296295166015625px);
+}
